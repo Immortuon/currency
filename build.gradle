@@ -7,8 +7,6 @@ buildscript {
     }
 }
 
-
-
 apply plugin: 'com.android.application'
 
 android {
@@ -28,10 +26,6 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
-   // lintOptions {
-       // disable 'IconDensities'
-        // abortOnError false
-    //}
 }
 
 dependencies {

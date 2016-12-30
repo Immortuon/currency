@@ -26,12 +26,6 @@ import org.junit.runner.RunWith;
 @SdkSuppress(minSdkVersion = 18)
 public class TestUI {
 
-    private static final String BASIC_SAMPLE_PACKAGE
-            = "org.billthefarmer.currency";
-    private static final int LAUNCH_TIMEOUT = 5000;
-
-    private static final String STRING_TO_BE_TYPED = "2";
-
     private UiDevice mDevice;
 
     @Before
